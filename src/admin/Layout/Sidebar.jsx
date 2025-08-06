@@ -18,7 +18,7 @@ const Sidebar = () => {
   const location = useLocation();
   const { sidebarCollapsed, toggleSidebar } = useAdminStore();
   const [showLogoutModal, setShowLogoutModal] = useState(false);
-a
+
   const menuItems = [
     { id: '/admin/dashboard', label: 'Dashboard', icon: LayoutDashboard },
     { id: '/admin/orders', label: 'Orders', icon: ShoppingCart },
